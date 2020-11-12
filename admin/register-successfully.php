@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
+    <title>Giới thiệu</title>
+    <link rel="icon" href="https://tmu.edu.vn/uploads/tmu/logo-dhtm-3.png" type="image/x-icon" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -125,7 +124,7 @@
                             <a name="" id="" class="btn text-white font-weight-bold text-uppercase" style="font-size: 12px;" href="https://tmu.edu.vn/vi/news/khao-thi-kiem-dinh-chat-luong/" role="button">khảo thí và đảm bảo chất lượng</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="https://tmu.edu.vn/vi/news/Hoat-dong-khao-thi/">Hoạt động Khảo thí</a>
-                                <a class="dropdown-item" href="https://tmu.edu.vn/vi/news/hoat-dong-kiem-dinh-chat-luong/">Họaat động Đảm bảo chất lượng</a>
+                                <a class="dropdown-item" href="https://tmu.edu.vn/vi/news/hoat-dong-kiem-dinh-chat-luong/">Họat động Đảm bảo chất lượng</a>
                                 <a class="dropdown-item" href="https://tmu.edu.vn/vi/news/khao-sat/">Khảo sát</a>
                             </div>
                         </div>
@@ -167,38 +166,43 @@
     </header>
     <br>
     <br>
-    <div class="container">
-        <h4 style="text-align: center;">Đăng nhập</h4>
-        <hr>
-        <form name="myForm" class="form-group container" style="max-width:700px;" method="POST" action="process-login.php" onsubmit="return validateform()">
-            <input type="tendangnhap" name="tendangnhap" class="form-control" placeholder="Tên đăng nhập">
+    <div class="container">\
+        <script>alert("Đăng kí thành công");</script>
+        <div>
+            <h4>ĐĂNG KÍ</h4>
+            <hr>
+        </div>
+        <br>
+        <h4 style="text-align: center;">Đăng ký thành viên</h4>
+        <form class="form-group container" style="max-width: 700px;" method="POST" action="process-register.php">
+            <input type="text" name="tendem" id="tendem" class="form-control" placeholder="Họ và tên đệm">
             <br>
-            <input type="password" name="password" class="form-control" placeholder="Mật Khẩu">
+            <input type="text" name="name" class="form-control" placeholder="Tên">
+            <br>
+            <input type="text" name="tendangnhap" class="form-control" placeholder="Tên đăng nhập">
+            <br>
+            <input type="email" name="email" class="form-control" placeholder="Email">
+            <br>
+            <input type="password" name="password1" class="form-control" placeholder="Mật Khẩu">
+            <br>
+            <input type="password" name="password2"  class="form-control" placeholder="Nhập lại mật khẩu">
+            <br>
+            <h6>Giới tính</h6>
+            <div class="form-check d-flex">
+                <label class="form-check-label" style="width:80px">
+                    <input type="radio" class="form-check-input" name="gender" id="" value="1" checked>
+                    Nam
+                </label>
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="" value="0">
+                    Nữ
+                </label>
+            </div>
+            <br>
+            <h6>Ngày sinh</h6>
+            <input type="date" name="ngaysinh" class="form-control">
             <br>
             <input type="reset" value="Reset" class="btn btn-light" style="border:1px solid #000">
-            <input type="submit" class="btn btn-primary" value="Đăng ký">
-
+            <input type="submit" class="btn btn-primary" value="Đăng ký" >
         </form>
     </div>
-    <script>
-        function validateform() {
-            var x = document.forms["myForm"]["tendangnhap"].value;
-            if (x == "" || x == null) {
-                alert("Bạn cần nhập tên đăng nhập");
-                return false;
-            }
-            var y = document.forms["myForm"]["password"].value;
-            if (y == "" || y == null) {
-                alert("Bạn cần nhập Password");
-                return false;
-            }
-        }
-    </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
-</html>

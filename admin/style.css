@@ -1,0 +1,57 @@
+header {
+    background-color: #0077b3;
+    border-bottom: 5px solid #f9d236;
+}
+
+.form-inline {
+    background-color: rgba(13,70,99,1) !important;
+}
+
+.form-inline > input {
+    background-color: rgba(13,70,99,1) !important;
+    border: none !important;
+}
+
+.maindis-sort-rankselect > select {
+    background-color: #0077b3;
+    color: white;
+    border: none;
+}
+
+.maindis-sort-rankselect > select > option {
+    background-color: #0077b3;
+    color: white;
+}
+
+nav.navbar {
+    border-top: 1px solid #0091d9 !important;
+}
+
+.dropdown:hover {
+    border-bottom: 5px solid #f9d236;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: rgba(153,102,0,0.9);
+    
+  }
+  
+  .dropdown:hover>.dropdown-menu > .dropdown-item {
+    color: #ffffff;
+  }
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+      
+  }
+
+  .dropdown-item:hover {
+      background-color: rgba(153,102,0,0.9) !important;
+  }
+  .panel {
+    margin-bottom: 0px;
+}
+.item_content{
+    display: flex;
+}
