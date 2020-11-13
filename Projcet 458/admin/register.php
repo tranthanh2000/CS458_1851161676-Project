@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Giới thiệu</title>
+    <title>Đăng lý</title>
     <link rel="icon" href="https://tmu.edu.vn/uploads/tmu/logo-dhtm-3.png" type="image/x-icon" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
