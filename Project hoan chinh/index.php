@@ -67,7 +67,7 @@
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
                     <li class="nav-item">
                         <div class="dropdown">
-                            <a name="" id="" class="btn text-white font-weight-bold text-uppercase" style="font-size: 12px;" href="https://tmu.edu.vn/vi/gioi-thieu/" role="button">Giới thiệu</a>
+                            <a name="" id="" class="btn text-white font-weight-bold text-uppercase" style="font-size: 12px;" href="http://localhost:81/Projcet458/index.html" role="button">Giới thiệu</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="https://tmu.edu.vn/vi/gioi-thieu/gioi-thieu-chung-ve-tmu/gioi-thieu-chung-ve-dai-hoc-thuong-mai-1.html">Giới thiệu chung về đại học thương mại</a>
                                 <a class="dropdown-item" href="https://tmu.edu.vn/vi/gioi-thieu/su-mang-muc-tieu-chien-luoc/su-mang-muc-tieu-chien-luoc-3.html">Sứ mạng mục tiêu chiến lượng</a>
