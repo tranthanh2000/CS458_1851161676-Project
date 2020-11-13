@@ -176,7 +176,7 @@
             <input type="password" name="password" class="form-control" placeholder="Mật Khẩu">
             <br>
             <input type="reset" value="Reset" class="btn btn-light" style="border:1px solid #000">
-            <input type="submit" class="btn btn-primary" value="Đăng ký">
+            <input type="submit" class="btn btn-primary" value="Đăng nhập">
 
         </form>
     </div>
